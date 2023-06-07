@@ -1,14 +1,15 @@
-Feature: Final Bill Calculation
+Feature: Cricket Match Score
 
   @ScenarioOutline
-  Scenario Outline: Customer Bill Amount Calculation
-    Given I have a customer
-    And User enters initial bill amount as<InitialBillAmount>
-    And Sales Tax Rate is  <TaxRate> Percent
-    Then Final bill amount calculate is  <CalculatedBillAmount>
+  Scenario Outline: The Batsman Is Bating
+    Given I am a batsman
+    And The batsman score<NameOfBatsman>
+    And the balls  <Score> 
+    Then The averge of batsman <Balls>
 
     Examples: 
-      | InitialBillAmount | TaxRate | CalculatedBillAmount |
-      |               100 |      10 |                  110 |
-      |               200 |       8 |                  216 |
-      |               100 |    1.55 |               101.55 |
+      | NameOfBatsman | Score | Balls |
+      | Hamed anwari  |   30  |    29 |            
+      | Hameed anwari |   56  |   25  |
+      | Tamim Habibi  |   16  |   7   |
+ 

@@ -1,7 +1,7 @@
 # to comment a line in the file --> type #
 #Feature: is a file where your describe your descriptive language (steps args)
 
-@SystemApps
+@Systemapps
 Feature: Menu Management
 
   @Regression

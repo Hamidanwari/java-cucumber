@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/features",
 		glue = "stepdefinations",
-		tags = "@SystemApps",
+		tags = "@Systemapps",
 		plugin = {"pretty",
 		"html:target/SystemTestReports/html",
 		"html:target/SystemTestReports/json/report.json",
